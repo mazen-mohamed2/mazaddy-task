@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-color{
+  background: transparent linear-gradient(90deg, #D20653 0%, #9B0257 100%) 0% 0% no-repeat padding-box;
+}
+
+#Language{
+  width: 83px;
+height: 29px;
+margin: 0 15px;
+/* UI Properties */
+background: transparent radial-gradient(closest-side at 50% 50%, #FDBC01 0%, #FDBA03 31%, #FF951D 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 15px;
+color: aliceblue;
+text-align: center;
+outline: none;
+}
+
+.coverImge{
+  background-size: cover !important;
+}
